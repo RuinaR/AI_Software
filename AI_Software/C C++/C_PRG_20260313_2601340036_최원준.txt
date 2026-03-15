@@ -1,0 +1,60 @@
+1. C++ 기본 자료형과 크기(Byte)-------------------------------
+
+[논리형]
+
+bool : 보통 1B
+
+[문자형]
+
+char : 1B
+
+signed char : 1B
+
+unsigned char : 1B
+
+[정수형]
+
+short (short int) : 보통 2B (최소 2B)
+
+unsigned short : 보통 2B (최소 2B)
+
+int : 보통 4B (최소 2B)
+
+unsigned int : 보통 4B (최소 2B)
+
+long (long int) : 보통 4B 또는 8B (최소 4B)
+
+unsigned long : 보통 4B 또는 8B (최소 4B)
+
+long long : 보통 8B (최소 8B)
+
+unsigned long long : 보통 8B (최소 8B)
+
+[실수형]
+
+float : 보통 4B
+
+double : 보통 8B
+
+long double : 보통 8B / 12B / 16B 등 (플랫폼 의존)
+
+2. bit와 byte 개념-----------------------------------------------
+
+bit(비트)
+
+데이터의 가장 작은 단위
+
+0 또는 1 값을 가짐
+
+byte(바이트)
+
+보통 8개의 bit를 묶은 단위
+
+메모리/파일 크기를 셀 때 기본 단위로 많이 사용
+
+관계
+
+1 Byte = 8 bits
+
+표기 주의: b = bit, B = byte
+예) 1MB(메가바이트) = 8Mb(메가비트)
